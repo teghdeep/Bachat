@@ -165,7 +165,7 @@ class UserHome extends Component {
                 <div className="col-12 ">
                   <CardHeader className="bg-info text-white">
                     <h3>
-                      Welcome: {this.props.user.firstname}{" "}
+                      Welcome : {this.props.user.firstname}{" "}
                       {this.props.user.lastname}
                     </h3>
                   </CardHeader>
@@ -174,11 +174,11 @@ class UserHome extends Component {
               <CardBody>
                 <dl className="row p-1">
                   <dt className="col-6">
-                    <h5>Income: {numberFormat(this.props.user.income)}</h5>
+                    <h5>Income : {numberFormat(this.props.user.income)}</h5>
                   </dt>
                   <dd className="col-6">
                     <h5>
-                      Savings: {numberFormat(this.props.savings)}
+                      Savings : {numberFormat(this.props.savings)}
                       {/* {this.props.user.savings} */}
                     </h5>
                   </dd>
